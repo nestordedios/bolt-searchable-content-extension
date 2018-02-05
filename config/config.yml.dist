@@ -1,0 +1,33 @@
+# ------------------------------------------------------------------------------
+# SEARCHABLE
+# ------------------------------------------------------------------------------
+# Makes repeater and block content searchable.
+#
+# Explicit configuration for what data to concatenate, with the following
+# format:
+# - contenttype -> field (type: repeater) -> subField
+# - contenttype -> field (type: block)    -> blockName -> subField
+#
+# ------------------------------------------------------------------------------
+
+searchable:
+#    pages:                             # Contenttype name
+#        myrepeater:                    # Repeater field name
+#            - title_text               # Repeater subfield name
+#            - body_text
+#            - description_text
+#        myblockfield:                  # Block field name
+#            myblocktext:               # Block name
+#                - title                # Block subfield name
+#                - description_text
+#                - more_text
+#            myblockbody:               # Block name
+#                - heading              # Block subfield name
+#                - content
+#    landingpages:                      # Contenttype name
+#        landingpagetype:               # Block field name
+#            customers:                 # Block name
+#                - body1                # Block subfield name
+#                - body2
+#                - body3
+#                - body4
