@@ -35,6 +35,7 @@
     },
     "extra": {
         "bolt-assets": "web",
-        "bolt-class": "Bolt\\Extension\\TwoKings\\SearchableContent\\SearchableContentExtension"
+        "bolt-class": "Bolt\\Extension\\TwoKings\\SearchableContent\\SearchableContentExtension",
+        "bolt-icon": "bolt-icon.png"
     }
 }
